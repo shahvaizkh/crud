@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "name": "Shahvaiz",
+      "email": "shahvaiz@gmail.com",
+      "password": "shahvaiz123",
+      "id": 1
+    },
+    {
+      "name": "Umer",
+      "email": "umer@gmail.com",
+      "password": "umer123",
+      "id": 2
+    },
+    {
+      "name": "Moin",
+      "email": "moin@gmail.com",
+      "password": "moin1234",
+      "id": 3
+    },
+    {
+      "name": "Amer ",
+      "email": "amer@gmail.com",
+      "password": "amer123",
+      "id": 4
+    }
+  ]
+}

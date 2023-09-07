@@ -1,0 +1,35 @@
+<button><a routerLink="/user-add">Add User</a></button>
+
+<div class="container mt-4">
+  <h1 style="text-align: center;">Data Table</h1>
+
+  <table class="table">
+
+    <!-- Header of table -->
+
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <!-- Data of table -->
+    
+    <tbody>
+      <tr *ngFor="let item of personData">
+        <td>{{ item.id }}</td>
+        <td>{{ item.name }}</td>
+        <td>{{ item.email }}</td>
+        <td>{{ item.password }}</td>
+        <td>
+          <button class="btn btn-success btn-sm" (click)="updatePersons(item.id)">Edit</button> &nbsp;
+          <button class="btn btn-danger btn-sm" (click)="deletePersons(item.id)">Delete</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
